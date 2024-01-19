@@ -1,0 +1,22 @@
+{
+  "name": "@nealh/cmpt315-lab2",
+  "version": "1.0.0",
+  "description": "CMPT 315 Lab 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nealhamacher/cmpt315-lab2.git"
+  },
+  "keywords": [
+    "test-npm"
+  ],
+  "author": "Neal Hamacher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nealhamacher/cmpt315-lab2/issues"
+  },
+  "homepage": "https://github.com/nealhamacher/cmpt315-lab2#readme"
+}
