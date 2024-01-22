@@ -5,7 +5,6 @@ const participants = require('./participants.js');
 const winnersObject = require('./winnersObject.js');
 const biggestLoser = require('./biggestLoser.js');
 const assert = require('assert');
-const { count } = require('console');
 
 const matches = [
     { winner: 'Alice', loser: 'Bob',   loser_points: 3 },
