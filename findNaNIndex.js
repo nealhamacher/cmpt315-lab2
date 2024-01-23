@@ -1,6 +1,11 @@
+/**
+ * Finds the indices of all NaN values in an array
+ * @param {Array} arr An array 
+ * @returns Array which contains a list of all inidices in arr containing NaN
+ */
 const findNaNIndex = function(arr) {
     if (!Array.isArray(arr)) {
-        throw new Error("Must pass an array")
+        throw new TypeError("Must pass an array")
     }
     let results = [];
     for(let i = 0; i < arr.length; i++) {

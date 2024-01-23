@@ -1,5 +1,12 @@
 const participants = require("./participants");
 
+/**
+ * Finds the biggest loser (player with most loser points) in a series of matches
+ * @param {Array} matches - array of matches (each item is a dictionary 
+ *          containing a winner, loser, and loser points) 
+ * @returns {Array} a dictionary containing with name of winner as the key and
+ *              array listing losers names as value
+ */
 const winnersObject = function(matches) {
     let winners = {};
     const participantList = participants(matches);
