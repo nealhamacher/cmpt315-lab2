@@ -1,6 +1,6 @@
 {
   "name": "@nealh/cmpt315-lab2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CMPT 315 Lab 2",
   "main": "index.js",
   "scripts": {
